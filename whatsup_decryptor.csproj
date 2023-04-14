@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<SelfContained>true</SelfContained>
+	<PublishSingleFile>true</PublishSingleFile>
+	<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	<PlatformTarget>x86</PlatformTarget>
+	  <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Cryptography">
+      <HintPath>dlls\Core.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CoreCryptographyLib">
+      <HintPath>dlls\Interop.CoreCryptographyLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NmUserAuthenticator">
+      <HintPath>dlls\NmUserAuthenticator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

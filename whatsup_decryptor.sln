@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "whatsup_decryptor", "whatsup_decryptor.csproj", "{60508946-817D-4BD3-AD3C-D226171EE7FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60508946-817D-4BD3-AD3C-D226171EE7FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60508946-817D-4BD3-AD3C-D226171EE7FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{60508946-817D-4BD3-AD3C-D226171EE7FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{60508946-817D-4BD3-AD3C-D226171EE7FF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE6425EA-3D33-457D-B83E-5D653C536361}
+	EndGlobalSection
+EndGlobal
